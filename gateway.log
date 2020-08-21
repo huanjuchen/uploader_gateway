@@ -1,0 +1,22 @@
+2020-08-22 02:37:20.507  INFO 12016 --- [main] x.h.gateway.UploaderGatewayApplication   : No active profile set, falling back to default profiles: default
+2020-08-22 02:37:21.006  INFO 12016 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=83f241e6-4ee7-3dd9-b453-991d3d2d5096
+2020-08-22 02:37:22.791  INFO 12016 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-08-22 02:37:23.562  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2020-08-22 02:37:23.563  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2020-08-22 02:37:23.563  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2020-08-22 02:37:23.563  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2020-08-22 02:37:23.563  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2020-08-22 02:37:23.564  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2020-08-22 02:37:23.564  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2020-08-22 02:37:23.564  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2020-08-22 02:37:23.564  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2020-08-22 02:37:23.564  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-08-22 02:37:23.564  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2020-08-22 02:37:23.564  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2020-08-22 02:37:23.565  INFO 12016 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-08-22 02:37:25.321  INFO 12016 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-08-22 02:37:26.841  INFO 12016 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-08-22 02:37:27.398  INFO 12016 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 9999
+2020-08-22 02:37:28.920  INFO 12016 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-08-22 02:37:30.433  INFO 12016 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-08-22 02:37:30.509  INFO 12016 --- [main] x.h.gateway.UploaderGatewayApplication   : Started UploaderGatewayApplication in 14.243 seconds (JVM running for 15.506)

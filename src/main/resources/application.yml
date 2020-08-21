@@ -1,0 +1,22 @@
+server:
+  port: 9999
+
+spring:
+  cloud:
+    gateway:
+      loadbalancer:
+        use404: true
+      routes:
+        - id: github-api
+          uri: https://api.github.com
+          predicates:
+            - Path=/api/github/**
+          filters:
+            - RewritePath=/api/github/(?<segment>), /$\{segment}
+  application:
+    name: uploader_gateway
+
+logging:
+  file:
+    name: gateway.log
+    path: ${user.home}/gateway_log/
