@@ -1,5 +1,5 @@
 server:
-  port: 9999
+  port: 8572
 
 spring:
   cloud:
@@ -19,4 +19,4 @@ spring:
 logging:
   file:
     name: gateway.log
-    path: ${user.home}/gateway_log/
+    path: ${user.home}/gateway_log
